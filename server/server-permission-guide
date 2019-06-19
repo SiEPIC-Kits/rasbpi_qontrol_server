@@ -1,0 +1,7 @@
+https://arduino.stackexchange.com/questions/21215/first-time-set-up-permission-denied-to-usb-port-ubuntu-14-04
+
+1. create /etc/udev/rules.d/01-ttyusb.rules
+2. contents: SUBSYSTEMS=="usb-serial", TAG+="uaccess"
+3. sudo udevadm control --reload, to reload
+4. run server without sudo
+
