@@ -155,7 +155,6 @@ def clientthread(conn, addr):
                         data='Possible Suffix: test_command, setvoltage, setcurrent, getvoltage, getcurrent, resetvoltage, resetcurrent, resetvoltageall, resetcurrentall, resetvoltagerange, resetcurrentrange exit.\nusage: help test_command.'
                     print('Help invoked.')
                 else:
-                    print('here')
                     data = 'Command Not Recognized. Try \'help\''
                 broadcast(data, conn)
 
