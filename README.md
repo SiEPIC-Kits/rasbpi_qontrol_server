@@ -24,3 +24,6 @@ Tested on Linux: The server machine has to have access to the USB port connected
 * resetcurrentall
 * exit
 
+### Acknowledgements
+* [Basic Python Socket Chatroom](https://stackoverflow.com/questions/7749341/basic-python-client-socket-example)
+* [USB Permissions for Linux](https://arduino.stackexchange.com/questions/21215/first-time-set-up-permission-denied-to-usb-port-ubuntu-14-04)
