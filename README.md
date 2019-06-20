@@ -17,12 +17,12 @@ sudo udevadm control --reload, to reload
 ```
 
 ## How to Start
-### Server
+### server.py
 The server can be started with the following command from a terminal on a Linux machine:
 ```
 python server.py
 ```
-### Client
+### client.py
 The client has two modes of operation. It can be used from the terminal, which maintains a constant connection and allows inputs of commands whilst obtaining responses from the server. Alternatively, the `client.py` can be imported as a class for custom scripting.
 
 Terminal Mode:
