@@ -1,3 +1,7 @@
+##
+#Author: Stephen
+##
+
 #https://stackoverflow.com/questions/7749341/basic-python-client-socket-example
 import socket
 import select
