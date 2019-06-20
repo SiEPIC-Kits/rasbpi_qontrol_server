@@ -10,6 +10,27 @@ Tested on Linux: The server machine has to have access to the USB port connected
 ### Client
 * TEMP
 
+## How to Start
+### Server
+### Client
+Terminal Mode:
+```
+python client.py terminal
+```
+or
+```
+python client.py terminal windows
+```
+for Windows users.
+
+Command-mode:
+Simply import the client.py as a class, establish a link to the server using `connect(IP,PORT)`, then start sending single commands using `send_command('test_command')`.
+```
+import client.py
+connect(localhost,8089)
+send_command('Hello!')
+```
+
 ## Client Commands
 * help
 * setvoltage
