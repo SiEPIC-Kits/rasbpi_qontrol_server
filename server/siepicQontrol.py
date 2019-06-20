@@ -1,3 +1,7 @@
+##
+#Author: Stephen
+##
+
 channel = 0
 
 import qontrol
