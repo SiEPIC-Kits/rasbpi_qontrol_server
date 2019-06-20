@@ -9,7 +9,7 @@ The server allows up to 5 connections at once, this might effect the usage of th
 * Linux Machine
 * Non-super user USB Access (see below) - SERVER ONLY
 
-The script does not work properly when invoked using `sudo`. Thus, the server machine needs access to the USB ports without the need of sudo. Here is the fix used during testing:
+`server.py` does not work properly when invoked using `sudo`. Thus, the server machine needs access to the USB ports without the need of sudo. Here is the fix used during testing:
 ```
 create /etc/udev/rules.d/01-ttyusb.rules
 contents: SUBSYSTEMS=="usb-serial", TAG+="uaccess"
